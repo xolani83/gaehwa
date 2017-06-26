@@ -1,0 +1,25 @@
+/* Styles go here */
+body {
+  background-color: #607d8b;
+}
+
+.btn {
+  background-color: #385f72;
+}
+
+#card {
+  height: 450px !important;
+}
+
+.vocabCard {
+  margin:0.5px;
+  padding-bottom: 10px;
+}
+
+.vocabTitle {
+  font-size: 14pt;
+}
+
+.vocabMeaning {
+  font-size: 10pt;
+}

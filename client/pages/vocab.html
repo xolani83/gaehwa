@@ -1,0 +1,18 @@
+<div class="container row">
+  <div class="card col s12 vocabCard" ng-click="vm.toggleVocab(verb)" ng-repeat="verb in vm.verbs">
+    <div class="card-content">
+      <div class="col s10">
+        <div class="vocabTitle">{{verb.dictionary}}</div>
+        <div class="vocabMeaning">{{verb.meaning}}</div>
+      </div>
+      <div class="col s2">
+        <span class="secondary-content">
+          <img ng-show="verb.fav" src="../dist/cherryBlossom.jpg" style="height:20pt; width:20pt; padding-left:-5pt;" />
+
+          <!--i ng-show="verb.fav" class="material-icons">star</i>
+          <i ng-hide="verb.fav" class="material-icons">star_border</i-->
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
